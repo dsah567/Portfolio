@@ -10,7 +10,7 @@ export default function Projects() {
         <br />
         <p className="mb-2 lg:mb-4 text-base lg:text-lg">
         <Link to="https://github.com/dsah567/Portfolio" target="_blank">
-         <u> Frontend</u>
+         <u> Portfolio Github Link</u>
         </Link> <br />
         <br />
           
@@ -25,10 +25,10 @@ export default function Projects() {
         
           
         <Link to="https://github.com/dsah567/Timetable-Generating-Frontend" target="_blank">
-         <u> Frontend</u>
+         <u> Frontend Github Link</u>
         </Link> <br />
         <Link to="https://github.com/dsah567/Timetable-Generating-Backend" target="_blank">
-          <u>Backend</u>
+          <u>Backend Github Link </u>
         </Link>
         <br />
         <br />

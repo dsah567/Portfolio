@@ -13,30 +13,30 @@ export default function Header() {
 
         <NavLink 
             to="/" 
-            className={({ isActive }) =>`${ isActive ?  "text-blue-400" : "text-white"}  hover:text-blue-600 `}
+            className={({ isActive }) =>`${ isActive ?  "text-blue-400" : "text-white"}  hover:font-bold `}
           >
              Home
         </NavLink>
 
         <NavLink 
             to="skills"
-            className={({ isActive }) =>`${ isActive ?  "text-blue-400" : "text-white"}  hover:text-blue-600 `}
+            className={({ isActive }) =>`${ isActive ?  "text-blue-400" : "text-white"}  hover:font-bold `}
           >
              Skills
         </NavLink>    
 
         <NavLink 
             to="projects"
-            className={({ isActive }) =>`${ isActive ?  "text-blue-400" : "text-white"}  hover:text-blue-600 `}
+            className={({ isActive }) =>`${ isActive ?  "text-blue-400" : "text-white"}  hover:font-bold `}
           >
             Projects
         </NavLink>
 
         <NavLink 
             to="contact" 
-            className={({ isActive }) =>`${ isActive ?  "text-blue-400" : "text-white"}  hover:text-blue-600 `}
+            className={({ isActive }) =>`${ isActive ?  "text-blue-400" : "text-white"}  hover:font-bold `}
           >
-            contact
+            Contact
         </NavLink>
 
       </div>

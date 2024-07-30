@@ -1,11 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Skills() {
   return (
     <>
-    
 
-<section className="bg-gray-50 text-gray-800 p-4 lg:p-8">
+    <section className="bg-gray-800 text-white p-4 lg:p-8">
       <div className="container mx-auto lg:w-2/3">
       <a 
           href="https://drive.google.com/file/d/1PS5mFCZbG1EYWUiE1sB8trhZnkmB4HMx/view?usp=sharing" 
@@ -41,6 +41,15 @@ export default function Skills() {
           <li><strong>Software:</strong> Visual Studio Code, Eclipse</li>
           <li><strong>Version Control:</strong> Git, GitHub</li>
           <li><strong>API Development & Testing:</strong> Postman</li>
+        </ul>
+
+
+        <h3 className="text-xl lg:text-2xl font-semibold mb-2">Course Certificate</h3>
+        <ul className="list-disc pl-5 mb-4">
+        <li><u><Link to="https://www.udemy.com/certificate/UC-d3fb5ed3-9194-4e81-b5e5-c9a6577b5c04/" target='_blank'>
+          Java Spring Framework 6 with Spring Boot 3</Link></u></li>
+        <li><u><Link to="https://www.udemy.com/certificate/UC-a7c04706-f577-48d7-8efb-cdfa42cb311d/" target='_blank'>
+          Git and Github</Link></u></li>
         </ul>
       </div>
     </section>

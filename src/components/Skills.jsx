@@ -8,7 +8,7 @@ export default function Skills() {
     <section className="bg-gray-800 text-white p-4 lg:p-8">
       <div className="container mx-auto lg:w-2/3">
       <a 
-          href="https://drive.google.com/file/d/1PS5mFCZbG1EYWUiE1sB8trhZnkmB4HMx/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1d4qVYxUwRd-658RXqaSC0pFwSoUAFuIZ/view?usp=sharing" 
           className="text-blue-400 hover:text-blue-600 text-2xl lg:text-4xl font-bold mb-4 lg:mb-8"
           target='_blank'
         >Download Resume</a>

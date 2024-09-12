@@ -8,7 +8,7 @@ export default function Home() {
         <p className="mb-2 lg:mb-4 text-base lg:text-lg">
           My name is Dipu Kumar Sah, and I hold a Bachelor of Engineering (B.E.) degree in Computer Science from R R Institute of Technology,
           affiliated with Visvesvaraya Technological University (VTU). With a solid educational background and hands-on experience, I specialize
-          in both frontend and backend development, particularly as a MERN stack and React Native developer. Additionally, I have extensive experience 
+          in both frontend and backend development, particularly as a MERN stack backend focus and React Native developer. Additionally, I have extensive experience 
           with Java and Spring Boot, focusing more on backend development.
         </p>
         <br/>

@@ -17,29 +17,7 @@ export default function Projects() {
          <p>I have developed a portfolio using React, leveraging the power of React Router DOM for efficient routing and Tailwind CSS for styling and ensuring a responsive design. React, a robust JavaScript library, allows for a component-based architecture, which makes the code reusable and maintainable while improving development efficiency and rendering speed. React Router DOM facilitates seamless navigation within the application, creating a dynamic and interactive user experience. Tailwind CSS, a utility-first CSS framework, accelerates the styling process with a comprehensive set of pre-defined classes, ensuring a consistent and visually appealing design. Additionally, Tailwind CSS makes it easier to implement responsive design, ensuring the portfolio is accessible and functional across various dev</p>
      
         </p>
-        <br />
-
-        <h2 className="text-2xl lg:text-4xl font-bold mb-4 lg:mb-8">Weather App</h2>
-       
-        <p className="mb-2 lg:mb-4 text-base lg:text-lg">
-        <Link to="https://weather-kappa-orpin-32.vercel.app/" target="_blank">
-         <u> Website link</u>
-        </Link> <br />
-        <Link to="https://github.com/dsah567/Weather" target="_blank">
-         <u> Weather App Github Link</u>
-        </Link> <br />
-        <p>
-          <p>
-           I've developed a comprehensive weather app that effectively utilizes the OpenWeatherMap API to provide users with accurate and up-to-date weather information. The app is designed to be user-friendly and intuitive, allowing users to easily search for weather data by city or location. Key features is
-           Real-time weather updates: The app fetches and displays current weather conditions, including temperature, humidity, wind speed, and precipitation.
-          </p>
-          <br />
-          <p>
-          By leveraging the OpenWeatherMap API and implementing robust error handling, I've created a reliable and informative weather app that meets the needs of users seeking accurate and timely weather information.
-          </p>
-        </p>
-        </p>
-
+        
         <br />
         <h2 className="text-2xl lg:text-4xl font-bold mb-4 lg:mb-8">About my Timetable Generating System</h2>
         
@@ -60,7 +38,11 @@ export default function Projects() {
             The backend, on the other hand, handles the complex processing required to generate optimal timetables. It utilizes advanced genetic algorithms to solve the intricate problem of scheduling, which involves balancing numerous variables and constraints. Genetic algorithms are well-suited for this task due to their ability to efficiently explore large solution spaces and find near-optimal solutions. The backend processes the user inputs, applies the genetic algorithm to generate feasible schedules, and outputs the results to the frontend for user review.
             Overall, the project integrates sophisticated algorithmic techniques with a user-centric interface, providing a powerful tool for timetable generation that can adapt to various scheduling needs and constraints.</p>
         </p>
+        <p>Note Timetable Generating System is haevy compute process to deploy on simple server.  <Link to="https://www.linkedin.com/posts/sahd7929_mernstack-timetablegeneratingsystem-educationtechnology-activity-7209192425867681794-hAbe?utm_source=share&utm_medium=member_desktop" target="_blank">
+         <u>click here for Timetable generating system project demo video</u>
+        </Link></p>
       </div>
+      
     </section>
 
    </div>

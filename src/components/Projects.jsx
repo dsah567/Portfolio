@@ -7,7 +7,7 @@ export default function Projects() {
     <section className="bg-gray-800 text-white p-4 lg:p-8">
       <div className="container mx-auto lg:w-2/3">
         <h2 className="text-2xl lg:text-4xl font-bold mb-4 lg:mb-8">About Portfolio Tools</h2>
-        <br />
+        
         <p className="mb-2 lg:mb-4 text-base lg:text-lg">
         <Link to="https://github.com/dsah567/Portfolio" target="_blank">
          <u> Portfolio Github Link</u>
@@ -17,9 +17,10 @@ export default function Projects() {
          <p>I have developed a portfolio using React, leveraging the power of React Router DOM for efficient routing and Tailwind CSS for styling and ensuring a responsive design. React, a robust JavaScript library, allows for a component-based architecture, which makes the code reusable and maintainable while improving development efficiency and rendering speed. React Router DOM facilitates seamless navigation within the application, creating a dynamic and interactive user experience. Tailwind CSS, a utility-first CSS framework, accelerates the styling process with a comprehensive set of pre-defined classes, ensuring a consistent and visually appealing design. Additionally, Tailwind CSS makes it easier to implement responsive design, ensuring the portfolio is accessible and functional across various dev</p>
      
         </p>
+        <br />
 
         <h2 className="text-2xl lg:text-4xl font-bold mb-4 lg:mb-8">Weather App</h2>
-        <br />
+       
         <p className="mb-2 lg:mb-4 text-base lg:text-lg">
         <Link to="https://weather-kappa-orpin-32.vercel.app/" target="_blank">
          <u> Website link</u>
@@ -28,12 +29,20 @@ export default function Projects() {
          <u> Weather App Github Link</u>
         </Link> <br />
         <p>
-        My weather app demonstrates my ability to integrate and effectively utilize APIs to fetch and display real-time data from server.
+          <p>
+           I've developed a comprehensive weather app that effectively utilizes the OpenWeatherMap API to provide users with accurate and up-to-date weather information. The app is designed to be user-friendly and intuitive, allowing users to easily search for weather data by city or location. Key features is
+           Real-time weather updates: The app fetches and displays current weather conditions, including temperature, humidity, wind speed, and precipitation.
+          </p>
+          <br />
+          <p>
+          By leveraging the OpenWeatherMap API and implementing robust error handling, I've created a reliable and informative weather app that meets the needs of users seeking accurate and timely weather information.
+          </p>
         </p>
         </p>
 
-        <h2 className="text-2xl lg:text-4xl font-bold mb-4 lg:mb-8">About my Timetable Generating System</h2>
         <br />
+        <h2 className="text-2xl lg:text-4xl font-bold mb-4 lg:mb-8">About my Timetable Generating System</h2>
+        
         <p className="mb-2 lg:mb-4 text-base lg:text-lg">
         
           

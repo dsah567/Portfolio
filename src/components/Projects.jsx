@@ -18,7 +18,20 @@ export default function Projects() {
      
         </p>
 
-        
+        <h2 className="text-2xl lg:text-4xl font-bold mb-4 lg:mb-8">Weather App</h2>
+        <br />
+        <p className="mb-2 lg:mb-4 text-base lg:text-lg">
+        <Link to="https://weather-kappa-orpin-32.vercel.app/" target="_blank">
+         <u> Website link</u>
+        </Link> <br />
+        <Link to="https://github.com/dsah567/Weather" target="_blank">
+         <u> Weather App Github Link</u>
+        </Link> <br />
+        <p>
+        My weather app demonstrates my ability to integrate and effectively utilize APIs to fetch and display real-time data from server.
+        </p>
+        </p>
+
         <h2 className="text-2xl lg:text-4xl font-bold mb-4 lg:mb-8">About my Timetable Generating System</h2>
         <br />
         <p className="mb-2 lg:mb-4 text-base lg:text-lg">

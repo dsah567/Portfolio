@@ -58,12 +58,12 @@ export default function Header() {
           </div>
         </nav>
       </header>
-
+<div className='bg-gray-700'>
       {/* Placeholders for sections */}
       <section id="home">
       <div className="container mx-auto p-4 grid grid-cols-1 gap-6">
     
-  <div className="bg-white p-4 shadow-md rounded-lg">
+  <div className="bg-teal-100  p-4 shadow-md rounded-lg">
         <h2 className="text-xl font-semibold" >About Me</h2>
         <p >
         Full stack developer and recent graduate in Computer Science with practical experience in Android development through a three-month internship, where I focused on API handling, backend development with PHP and MySQL, and designing layouts for Android apps. I further advanced my skills as a MERN stack developer, leading a team to create a timetable generation system using genetic algorithms. My expertise also extends to batch management systems, where I implemented student record management with JWT authentication and CORS policies. Additionally, I've worked with Spring Boot and React Native, enhancing my ability to build robust web applications and collaborate effectively across teams.
@@ -74,7 +74,7 @@ export default function Header() {
       </section>
       <section id="projects">
       <div className="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 gap-6">
-  <div className="bg-white p-4 shadow-md rounded-lg">
+  <div className="bg-teal-100  p-4 shadow-md rounded-lg">
     
     <h2 className="text-xl font-semibold">Batch Management</h2>
         
@@ -110,7 +110,7 @@ export default function Header() {
         </p>
         </div>
         
-  <div className="bg-white p-4 shadow-md rounded-lg">
+  <div className="bg-teal-100  p-4 shadow-md rounded-lg">
     
     <h2 className="text-xl font-semibold" >Timetable Generating System</h2>
         <p >
@@ -153,18 +153,20 @@ export default function Header() {
       </section>
       <section id="contact">
         <div className="container mx-auto p-4 grid grid-cols-1 gap-6">
-            <div className="bg-white p-4 shadow-md rounded-lg">
+            <div className="card bg-teal-100 p-4 shadow-md rounded-lg">
               <h2 className="text-xl font-semibold">Contact Section</h2>
               
-          <a href="mailto:sahd7929@gmail.com"><u>Send Mail :</u></a> <>sahd7929@gmail.com</>
-          <br />
-          <a href="tel:+917892957459"><u>Call Now. :</u></a> <> +91 7892957459</>
-          <br />
+              <a href="mailto:sahd7929@gmail.com"><u>Send Mail :</u></a> <>sahd7929@gmail.com</>
+              <br />
+              <a href="tel:+917892957459"><u>Call Now. :</u></a> <> +91 7892957459</>
+              <br />
 
             </div>
             
           </div>
+
       </section>
+      </div>
     </>
   );
 }

@@ -3,6 +3,18 @@ import { Link } from 'react-router-dom';
 import LinkedinLogo from './assets/linkedin.svg';
 import GithubLogo from './assets/github.svg';
 import DipuKumarSah_Resume from './assets/Dipu_Kumar_Sah_Resume.pdf'
+import JS from "./assets/js-svgrepo-com.svg"
+import Rect from "./assets/react-javascript-js-framework-facebook-svgrepo-com.svg"
+import NodeJS from "./assets/nodejs-svgrepo-com.svg"
+import ExpressJS from "./assets/express-svgrepo-com.svg"
+import Java from "./assets/java-svgrepo-com.svg"
+import Spring from "./assets/spring-svgrepo-com.svg"
+import Jpa from "./assets/jpa-svgrepo-com.svg"
+import Hibernate from "./assets/hibernate-svgrepo-com.svg"
+import Mongo from "./assets/mongo-svgrepo-com.svg"
+import Mysql from "./assets/mysql-svgrepo-com.svg"
+import Css from "./assets/css-3-svgrepo-com.svg"
+import Html from "./assets/html-5-svgrepo-com.svg"
 
 
 export default function Header() {
@@ -24,18 +36,18 @@ export default function Header() {
             >
               Home
             </button>
+            <button
+              onClick={() => scrollToSection('skills')}
+              className="hover:font-bold text-white"
+            >
+              Skills
+            </button>
 
             <button
               onClick={() => scrollToSection('projects')}
               className="hover:font-bold text-white"
             >
               Projects
-            </button>
-            <button
-              onClick={() => scrollToSection('skills')}
-              className="hover:font-bold text-white"
-            >
-              Skills
             </button>
 
 
@@ -66,12 +78,52 @@ export default function Header() {
   <div className="bg-teal-100  p-4 shadow-md rounded-lg">
         <h2 className="text-xl font-semibold" >About Me</h2>
         <p >
-        Full stack developer and recent graduate in Computer Science with practical experience in Android development through a three-month internship, where I focused on API handling, backend development with PHP and MySQL, and designing layouts for Android apps. I further advanced my skills as a MERN stack developer, leading a team to create a timetable generation system using genetic algorithms. My expertise also extends to batch management systems, where I implemented student record management with JWT authentication and CORS policies. Additionally, I've worked with Spring Boot and React Native, enhancing my ability to build robust web applications and collaborate effectively across teams.
+        Full Stack Developer Backend Focus and recent graduate in Computer Science with practical experience in Android development through a three-month internship, where I focused on API handling, backend development with PHP and MySQL, and designing layouts for Android apps. I further advanced my skills as a MERN stack developer, leading a team to create a timetable generation system using genetic algorithms. My expertise also extends to batch management systems, where I implemented student record management with JWT authentication and CORS policies. Additionally, I've worked with Spring Boot and React Native, enhancing my ability to build robust web applications and collaborate effectively across teams.
         </p> <br />
         <a className="inline-block px-6 py-2 text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-lg shadow-md transition duration-300" href={DipuKumarSah_Resume} download="Dipu_Kumar_Sah_Resume">Download Resume</a>
       </div>
       </div>
       </section>
+
+      <section id="skills">
+        <div className="container mx-auto  p-4 bg-slate-500 rounded-lg">
+        <h1 className="text-xl font-semibold" >Skills Section</h1>
+        <div className="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3 2xl:grid-cols-3 gap-6">
+        <div className="bg-teal-100 p-4 shadow-md rounded-lg">
+          
+          <h2 className="text-xl font-semibold">JavaScript Technologies</h2>
+          <div className="container mx-auto p-4 grid grid-cols-4 gap-6">
+              <div><img src={JS} alt=" JavaScript" width={150} /> JavaScript</div>
+              <div><img src={Rect} alt=" React " width={150}  /> React </div>
+              <div><img src={NodeJS} alt=" NodeJS " width={150} /> NodeJS </div>
+              <div><img src={ExpressJS} alt=" ExpressJS " width={150}  /> ExpressJS </div>
+          </div>
+        </div>
+        <div className="bg-teal-100 p-4 shadow-md rounded-lg">
+          
+          <h2 className="text-xl font-semibold">Java Technologies</h2>
+          <div className="container mx-auto p-4 grid grid-cols-4 gap-6">
+              <div><img src={Java} alt=" Java " width={150} />  Java </div>
+              <div><img src={Spring} alt=" Spring " width={150}  />  Spring </div>
+              <div><img src={Jpa} alt=" JPA " width={150} /> JPA  </div>
+              <div><img src={Hibernate} alt=" Hibernate " width={150}  />  Hibernate </div>
+          </div>
+        </div>
+        <div className="bg-teal-100 p-4 shadow-md rounded-lg">
+          
+          <h2 className="text-xl font-semibold">Database and style sheet language</h2>
+          <div className="container mx-auto p-4 grid grid-cols-4 gap-6">
+              <div><img src={Mongo} alt=" MongoBD" width={150} />  MongoBD</div>
+              <div><img src={Mysql} alt=" MySql " width={150}  />  MySql </div>
+              <div><img src={Html} alt=" html5 " width={150} />  html5 </div>
+              <div><img src={Css} alt=" css3 " width={150}  />  css3 </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </section>
+
+
       <section id="projects">
       <div className="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 gap-6">
   <div className="bg-teal-100  p-4 shadow-md rounded-lg">
@@ -148,9 +200,7 @@ export default function Header() {
       </div>
       
       </section>
-      <section id="skills">
-        <h1>Skills Section</h1>
-      </section>
+      
       <section id="contact">
         <div className="container mx-auto p-4 grid grid-cols-1 gap-6">
             <div className="card bg-teal-100 p-4 shadow-md rounded-lg">
@@ -159,6 +209,10 @@ export default function Header() {
               <a href="mailto:sahd7929@gmail.com"><u>Send Mail :</u></a> <>sahd7929@gmail.com</>
               <br />
               <a href="tel:+917892957459"><u>Call Now. :</u></a> <> +91 7892957459</>
+              <br />
+              <a href="https://www.linkedin.com/in/sahd7929/"><u>Connect With Me</u></a> <> linkedin.com/in/sahd7929/</>
+              <br />
+              <a href="https://github.com/dsah567/"><u>Check My GitHub</u></a> <> https://github.com/dsah567/</>
               <br />
 
             </div>

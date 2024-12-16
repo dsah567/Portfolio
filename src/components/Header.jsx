@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import LinkedinLogo from './assets/linkedin.svg';
 import GithubLogo from './assets/github.svg';
-import DipuKumarSah_Resume from './assets/Dipu_Kumar_Sah_Resumee.pdf'
+import DipuKumarSah_Resume from './assets/DipuKumarSah_Resume.pdf'
 import JS from "./assets/js-svgrepo-com.svg"
 import Rect from "./assets/react-javascript-js-framework-facebook-svgrepo-com.svg"
 import NodeJS from "./assets/nodejs-svgrepo-com.svg"

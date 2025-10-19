@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import LinkedinLogo from './assets/linkedin.svg';
 import GithubLogo from './assets/github.svg';
-import DipuKumarSah_Resume from './assets/DipuKumarSah_Resume.pdf'
+import DipuKumarSah_Resume from './assets/Dipu_Kumar_Sah.pdf'
 import JS from "./assets/js-svgrepo-com.svg"
 import Rect from "./assets/react-javascript-js-framework-facebook-svgrepo-com.svg"
 import NodeJS from "./assets/nodejs-svgrepo-com.svg"
@@ -20,6 +20,7 @@ import Html from "./assets/html-5-svgrepo-com.svg"
 import WeatherAppImage from './image/weather.png';
 import BatchManagementImage from './image/batchmanage.png';
 import TimetableImage from './image/timetable.png';
+import ToDoSubToDo from './image/todo-subtodo.png'
 
 
 export default function Header() {
@@ -85,7 +86,13 @@ export default function Header() {
             <div className="bg-teal-100  p-4 shadow-md rounded-lg">
               <h2 className="text-xl font-semibold" >About Me</h2>
               <p >
-                Hi I am Dipu Kumar Sah, Full Stack Developer Backend Focus and recent graduate in Computer Science with practical experience in Android development through a three-month internship, where I focused on API handling, backend development with PHP and MySQL, and designing layouts for Android apps. I further advanced my skills as a MERN stack developer, leading a team to create a timetable generation system using genetic algorithms. My expertise also extends to batch management systems, where I implemented student record management with JWT authentication and CORS policies. Additionally, I've worked with Spring Boot and React Native, enhancing my ability to build robust web applications and collaborate effectively across teams.
+                Hi I am Dipu Kumar Sah, Full Stack Developer Backend Focus and recent graduate in Computer Science 
+                with practical experience in Android development through a three-month internship, where I focused 
+                on API handling, backend development with PHP and MySQL, and designing layouts for Android apps. I 
+                further advanced my skills in Java Full Stack and MERN stack, During my final year project, I 
+                lead a team to create a timetable generation
+                 system using genetic algorithms. My expertise also extends to batch management systems, where I 
+                 implemented student record management with JWT authentication and CORS policies. 
               </p> <br />
               <a className="inline-block px-6 py-2 text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-lg shadow-md transition duration-300" href={DipuKumarSah_Resume} download="Dipu_Kumar_Sah_Resume">Download Resume</a>
             </div>
@@ -133,6 +140,42 @@ export default function Header() {
 
         <section id="projects">
           <div className="container mx-auto p-4 grid grid-cols-1 gap-6">
+
+          <div className="bg-teal-100  p-4 shadow-md rounded-lg">
+              <div className="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  gap-6">
+                <div><img src={ToDoSubToDo} alt=" ToDo SubToDo Image " /> </div>
+                <div>
+                  <h2 className="text-xl font-semibold">ToDo SubToDo</h2>
+
+                  <p >
+                    <br />
+                    <Link
+                      className="inline-block px-6 py-2 text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-lg shadow-md transition duration-300"
+                      to="https://to-do-sub-to-do.vercel.app/" target="_blank">
+                      <u> Project Link</u>
+                    </Link> <br />
+                    <br />
+                    <Link
+                      className="inline-block px-6 py-2 text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-lg shadow-md transition duration-300"
+                      to="https://github.com/dsah567/ToDo-SubToDo" target="_blank">
+                      <u> ToDo SubToDo Github Link</u>
+                    </Link> <br />
+                    <br />
+              
+
+
+                    <p>Built a recursive Todo management app using React (TypeScript), useState, useEffect, and useContext, allowing users to create, 
+                      edit, and delete todos and infinitely nested subtodos . Implemented persistent state management with localStorage to ensure data
+                       consistency, synchronization, and safety from loss even after browser reloads or closures.
+                      Overcame challenges of deeply nested component updates and ensured seamless editing and synchronization of subtodo
+                      hierarchies through efficient Added comments for each function to increade readibility of code .
+                    </p>
+
+                  </p>
+                </div>
+
+              </div>
+            </div>
 
           <div className="bg-teal-100  p-4 shadow-md rounded-lg">
               <div className="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  gap-6">
